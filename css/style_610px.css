@@ -1,0 +1,35 @@
+@media only screen and (max-width: 611px) {
+	.form_block_section {
+		width: 100%;
+		padding: 50px 0px;
+	}
+	.touch_form {
+		max-width: 100%;
+	}
+	.form_header_flex {
+		flex-wrap: wrap;
+		gap: 25px;
+	}
+	.firstname, .lastname {
+		flex-basis: 100%;
+	}
+	.header_block_content_title, .thaldy_h2_center,.thaldy_h2_left,.features_header {
+		font-size: 28px;
+	}
+	.header_block_content_info, .thaldy_p_center, .thaldy_p_left, .features_panel_title {
+		font-size: 16px;
+	}
+	.guide_panel {
+		min-height: auto;
+	}
+	.guide_panel_p_message {
+		font-size: 18px;
+	}
+	.guide_block_items {
+		min-height: 320px;
+	}
+	.guide_block_items_list  {
+		top: -150px;
+	}
+	
+}

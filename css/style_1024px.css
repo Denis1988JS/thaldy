@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1025px) {
+	.wrapper{
+		padding: 0px 10px;
+	}
+	.header_block,.big_cart_lite_grey,.big_cart_grey,.features_section,.footer_block {
+		padding: 20px 10px;
+	}
+	.item img {
+	max-width: 250px;
+	height: auto;
+	}
+	.features_section_block {
+		justify-content: space-evenly;
+	}
+	.cart_items_list {
+		justify-content: space-evenly;
+	}
+	.footer_main_block {
+		padding-top: 0px;
+	}
+	.guide_panel {
+		flex-basis: 30%;
+		height: auto;
+	}
+	.guide_panel img{
+		width: 100%;
+		height: auto;
+	}
+	.thaldy_h2_left {
+		font-size: 36px;
+		padding-top: 10px;
+	}
+	.thaldy_p_left {
+	font-size: 28px;
+	padding: 15px 0px;
+}
+	.form_block_section {
+		width: 70%;
+		padding: 30px 0px;
+	}
+	.touch_form {
+		max-width: 100%;
+	}
+	.form_header_flex {
+		flex-wrap: wrap;
+		gap: 25px;
+	}
+	.firstname, .lastname {
+		flex-basis: 100%;
+	}
+	.header_content__btn  {
+		width: 100%;
+	}
+	.site_info {
+		padding-top: 15px;
+	}
+}

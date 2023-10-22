@@ -1,0 +1,32 @@
+@media only screen and (max-width: 425px) {
+	.open_nav {
+		display: flex;
+	}
+	.nav {
+		flex-flow: wrap-reverse;
+	}
+	.nav_logo, .nav_link {
+		flex-basis: auto;
+	}
+	.nav_list {
+		display: none;
+		width: 100%;
+		border-top: 3px solid black;
+		flex-direction: column;
+		padding-top: 10px;
+		position: fixed;
+		top: 75px;
+		left: 0px;
+		background-color: hsla(0, 0%, 100%, 0.9);
+	}
+	.nav_list_item {
+		text-align: center;
+		padding: 5px;
+	}
+	.nav_list_item:hover {
+		background-color: burlywood;
+	}
+	.nav_list_item_show {
+		display: flex;
+	}
+}
