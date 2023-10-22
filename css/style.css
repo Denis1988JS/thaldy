@@ -10,6 +10,15 @@
 	width: 100%;
 	height: auto;
 }
+/*Инфо по форме erro*/
+.messageError {
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	font-size: 35px;
+	text-align: center;
+	color: red;
+}
 /*Кнопка открыть навигацияю - мобильная*/
 .open_nav {
 	width: 40px;

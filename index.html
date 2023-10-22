@@ -218,12 +218,13 @@
 			<section class="form_block_section">
 				<h2 class="features_header">Keep in touch</h2>
 				<p class="thaldy_p_center">Get our travel advice, global views and travel freebies in your inbox</p>
-				<form action="#" method="post" enctype="multipart/form-data" name="touchForm" class="touch_form">
+				<form action="#" method="post" enctype="multipart/form-data" name="touchForm" class="touch_form" id="formReg">
 					<div class="form_header_flex">
-						<input type="text" name="firstname" class="firstname" id="firstname" placeholder="first name" required>
-						<input type="text" name="lastname" class="lastname" id="lastname" placeholder="last name" required>
+						<input type="text" name="firstname" class="firstname" id="firstname" placeholder="first name" required  title="Ваше имя">
+						<input type="text" name="lastname" class="lastname" id="lastname" placeholder="last name" required title="Ваша фамилия">
 					</div>
-					<input type="email" name="email" id="email" class="email" placeholder="Email">
+					<input type="email" name="email" id="email" class="email" placeholder="Email" title="Ваш Email">
+					<p class="messageError"></p>
 					<input type="submit" value="Subscribe" class="header_content__btn submit_center">
 				</form>
 			</section>
@@ -254,7 +255,6 @@
 					<ul>
 						<li class="block_center_header_item"><a href="#" class="block_center_header_link">Email hi@thalby.com</a></li>
 						<li class="block_center_header_item"><a href="#" class="block_center_header_link">Help</a></li>
-						
 					</ul>
 				</div>
 			</div>
